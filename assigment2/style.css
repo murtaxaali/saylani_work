@@ -1,0 +1,135 @@
+
+  
+  
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+    font-family:sans-serif;
+  }
+  
+ .both { 
+  
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 10vh;
+    max-height: 100vh;
+    margin-top: 50px;
+  
+   }
+  
+  .box { 
+    border: 2px solid;
+    max-width: 300px;
+    width: 300px;
+    min-width: 100px;
+    height: 450px;
+    margin: 0px 5px 0px 5px;
+  }
+  
+  img {
+    width: 67px;
+  
+  
+    display: block;
+    margin: 9px;
+  }
+  
+   .box>p {   
+    margin-top: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+     overflow: hidden; 
+  
+   }
+  
+  #twitter:hover .twitter {
+    color: #1DA1F2;
+    background: #ffffff;
+  
+  }
+  
+  #twitter:hover {
+    color: #ffffff;
+    background: #1DA1F2;
+  }
+  
+  
+  #instagram:hover {
+    color: #fff;
+    background-color: #ff0048;
+  
+  }
+  
+  #instagram:hover .instagram {
+    color: #ff0048;
+    background-color: #ffffff;
+  }
+  
+  #youtube:hover {
+    color: #fff;
+    background-color: #dd1111;
+  }
+  
+  #youtube:hover .youtube {
+    color: #dd1111;
+    background: #ffffff;
+  }
+  
+  a {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI';
+  
+    
+    width: 200px;
+  
+    padding: 20px;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: bold;
+  
+  }
+  .nav{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+  
+  }
+  .nav > div{
+     border:5px solid #05fbff  ;
+   padding-left: 200px;
+   padding-right: 200px;
+  background-color: #1DA1F2;
+  }
+  .navbar{
+    display: inline-flex;
+   
+   padding: 10px;
+   text-align: center;
+    list-style: none;
+    font-size: 22px; cursor: pointer;
+    
+  }
+  #search{ 
+    height: 30px;
+    width: 350px;
+    
+  }
+  .navbar:hover{
+    color: #ffffff;
+  }
